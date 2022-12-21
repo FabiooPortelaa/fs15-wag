@@ -4,6 +4,7 @@
     font-family: 'Inter', sem serifa;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 #aviso-retratil {
     background-color: #faab43;
@@ -27,6 +28,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     height: 56px;
+    background-color: #FFFFFF;
 
 }
 header nav > div{
@@ -35,11 +37,41 @@ header nav > div{
 }
 header nav > div:first-child ul{
     display: flex;
+    padding:  0 5px;
     
 }
 header nav > div:last-child ul{
     display: none;
+    
 }
 header nav .header-select-title{
     display: flex;
+}
+a{
+    margin: 10px;
+}
+h6{
+    margin: 5px;
+}
+.beco{
+    color: #00BF8F;
+}
+.conta{
+    color: #474747;
+}
+#img1{
+    position: relative;
+    left: -21px;
+}
+.li1{
+  color: #474747;  
+  font-weight: 400;
+}
+#seta1{
+    position: relative;
+    left: 105px;
+}
+#seta2{
+    position: relative;
+    left: 250px;
 }
